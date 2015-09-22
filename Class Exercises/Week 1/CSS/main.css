@@ -1,15 +1,15 @@
-		header{
-			color:#F79F81;
-  			text-align: center;
-  			text-decoration: underline;
-  			font-family: helvetica;
-  			}
- 		section{
-  			color: #F79F81;
-  			text-align: center;
-  			}
-  		footer{
-  			color: #F79F81;
-  			text-align: center;
-  			font-size: 10px;
-  			}
+header{ 
+  color:#F79F81;
+  text-align: center;
+  text-decoration: underline;
+  font-family: helvetica;
+}
+section{
+  color: #F79F81;
+  text-align: center;
+  }
+footer{
+  color: #F79F81;
+  text-align: center;
+  font-size: 10px;
+  }
