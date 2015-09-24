@@ -1,3 +1,29 @@
 body {
-    background-image: url("Dancing.jpg");
+    font-family: Courier;
+}
+.about {
+  	background-image: url("../assets/flying.gif");
+  	background-size: cover;
+  	color: white;
+  }
+ .social {
+ 	color:yellow;
+ }
+ .guide {
+ 	text-align:center;
+ }
+ .indxclr {
+ 	color:black;
+ 	 background-image: url("../assets/paper2.jpg");
+  	background-size: cover;
+ }
+ .date {
+ 	font-size:12px;
+ }
+
+a:hover {
+  color: red;
+}
+.beginning {
+  border:10px solid black;
 }
