@@ -1,5 +1,6 @@
 body {
     font-family: Courier;
+    margin: 10px;
 }
 .about {
   	background-image: url("../assets/flying.gif");
@@ -27,3 +28,27 @@ a:hover {
 .beginning {
   border:10px solid black;
 }
+
+/*.dropcap {
+  float: left;
+  font-size: 2em;
+  font-style: italic;
+}
+*/
+
+p:first-child:first-letter {
+  float: left;
+  font-size: 2em;
+  font-family: Georgia;
+}
+
+nav:before {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+    content: "";
+    background: url("../assets/bully31.gif") no-repeat 0 0;
+    background-size: 100%;
+
+  ;
