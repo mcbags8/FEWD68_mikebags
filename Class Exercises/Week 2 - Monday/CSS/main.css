@@ -1,0 +1,43 @@
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+body{
+  color:black;
+  width: 960px;
+  margin-left:auto;
+  margin-right: auto;
+}
+header, footer{
+  border: 1px solid black;
+  text-align: center;
+  height: 100px;
+  padding: 5px;
+  min-width: 25%;
+}
+
+.right-side {
+  border: 1px solid black;
+  height: 100px;
+  width: 47.5%;
+  text-align: center;
+  padding: .5%;
+  float: right;
+  position: relative;
+}
+
+.left-side {
+  border: 1px solid black;
+  height: 100px;
+  width: 47.5%;
+  text-align: center;
+  padding: .5%;
+  float: left;
+  position:relative;
+}

@@ -11,7 +11,7 @@ body {
  	color:yellow;
  }
  .guide {
- 	text-align:center;
+  text-align: center; 
  }
  .indxclr {
  	color:black;
@@ -46,6 +46,6 @@ nav:before {
     margin: 10px;
     width: 80px;
     height: 80px;
-    clear:left;
+    clear: left;
   }
 
