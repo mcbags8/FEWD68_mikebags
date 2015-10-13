@@ -51,6 +51,7 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: 'Open Sans', sans-serif;
+     margin: 0px auto;
 }
 
 
@@ -67,10 +68,11 @@ body {
 .mainpage{
   background-color: #033048;
   width: 980px;
-  padding-right: 60px;
-  padding-left: 60px;
+ /* padding-right: 60px;
+  padding-left: 60px;*/
   padding-bottom: 20px;
   padding-top: 20px;
+  margin: 0px auto;
 }
 
 footer {
@@ -91,6 +93,7 @@ footer {
   margin: 10px;
   text-decoration: none;
   font-weight: 600;
+  margin-right: 20px;
 }
 
 .navigation a:link {
@@ -128,6 +131,7 @@ footer {
   font-size: 40px;
   float: left;
   font-weight: 800px;
+  margin-left: 20px;
 }
 
 
@@ -199,7 +203,7 @@ ul {
   background-color: #f9e42e;
   height: 100px;
   width: 980px;
-  padding: 25px
+  padding: 25px;
 }
 
 .sign-up {
@@ -257,13 +261,108 @@ ul {
 }
 
 .aboutheader {
+  background-image: url("../images-about/header_bg.jpg");
   width: 980px;
-  height: auto;
+  height: 500px;
+  color: white;
+  margin: 0px auto;
 }
+
 
 .bullets {
   width: 980px;
-  height: 400px;
+  height: 300px;
+  padding-left: 40px;
+  padding-top: 40px;
+  margin: 0px auto;
+}
+
+.relaxrabout {
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: 800px;
+}
+
+
+.aboutheader .slogan {
+   clear:both;
+  margin-top: 250px;
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0px auto;
+}
+
+.get-it {
+  background-color: #f9e42e;
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  margin: 0px auto;
+  padding-top: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  color: #033048;
+
+}
+
+.get-it a:link{
+  text-decoration: none;
+}
+
+.get-it a {
+  color: black;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.benefits {
+  font-size: 2em;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.perfect {
+ font-weight: 300;
+ margin-bottom: 10px
+}
+
+.lists {
+  margin-right: 20px;
+}
+
+.lastsection {
+  background-image: url("../images-about/testimonial_bg.jpg");
+  width: 980px;
+  height: 350px;
+  color: white;
+  margin: 0px auto;
+}
+
+.quote {
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 275px;
+  padding-right: 275px;
+  font-size: 2em;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.amanda {
+  text-align: center;
+  padding-left: 275px;
+  padding-right: 275px;
+  font-size: 2em;
+  font-style: italic;
+  font-weight: 400;
+  text-align: right;
+}
+
+footer {
+  margin: 0px auto;
 }
 /******************************************
 /* ADDITIONAL STYLES
