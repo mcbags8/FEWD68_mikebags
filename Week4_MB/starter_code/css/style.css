@@ -50,7 +50,7 @@ body {
   font-size: 12px;
   line-height: 1.4;
   font-family: Helvetica, Arial, sans-serif;
-  background: url(../images/citipix_skyline.jpg) no-repeat center center fixed;
+  background: url(../images/citipix_skyline.jpg) no-repeat center center fixed;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -124,19 +124,19 @@ header {
 }
 
 .nyc {
-  background-image: url(../images/nyc.jpg)
+  background: url(../images/nyc.jpg);
 }
 .sf {
-  background-image: url(../images/sf.jpg)
+  background: url(../images/sf.jpg);
 }
 .la {
-  background-image: url(../images/la.jpg)
+  background: url(../images/la.jpg);
 }
 .austin {
-  background-image: url(../images/austin.jpg)
+  background: url(../images/austin.jpg);
 }
 .sydney {
-  background-image: url(../images/sydney.jpg)
+  background: url(../images/sydney.jpg);
 }
 
 /******************************************
