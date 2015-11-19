@@ -1,0 +1,49 @@
+header{
+	border: solid black;
+	width: 99%;
+	height: 120px;
+	overflow: hidden;
+}
+
+.menubutton {
+	display: block;
+	overflow: hidden;
+	float: left;
+	height: 30px;
+	width: 30px;
+	border: 1px solid black;
+}
+
+
+.ham {
+	display: block;
+	background-color: black;
+	width: 20px;
+	height: 4px;
+	margin: 5px;
+}
+
+
+ul {
+	float: left;
+	padding:0;
+	width:100%;
+	margin-left: 8%;
+	margin-right: 8%;
+	display: none;
+}
+.Top4Box {
+	display: inline-block;
+	border:1px solid black;
+	width: 20%;
+	height: 90px;
+}
+
+@media screen and (min-width: 450px) {
+	.menubutton {
+		display: none;
+	}
+	ul{
+		display: block;
+	}
+}

@@ -1,0 +1,28 @@
+body {
+	margin: 0 auto;
+	font-size: 2em;
+	text-align: center;
+}
+
+header {
+	background-color: blue;
+	color: white;
+}
+
+ul {
+	background-color: green;
+	color: white;
+}
+
+form {
+	background-color: orange;
+	padding: 10px;
+}
+
+.textboxsize {
+	font-size: 2em;
+}
+
+.buts {
+	font-size: 2em;
+}

@@ -1,0 +1,25 @@
+<html lang="en">
+    <head>
+        <title>Weather App</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    </head>
+    <body>
+    	<header>Welcome to Weather Central!</header>
+        <div>
+        	<form id="cityinfo">
+        		 <input class="textboxsize" type="text" name="cityzip" placeholder="please enter your city name" id="cityzip">
+        		 <input class="buts" type="submit" value="SUBMIT">
+        	</form>
+    	</div>
+    	<ul style="list-style-type:disc">
+    		<li>City: <span id="City"></span></li>
+    		<li>Temperature(F): <span id="Temperature"></span></li>
+    		<li>Description: <span id="Description"></span></li>
+    		<li>Windspeed(mph): <span id="Windspeed"></span></li>
+    	</ul> 
+        <script type="text/javascript" src="js/jquery.js"></script>    
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
